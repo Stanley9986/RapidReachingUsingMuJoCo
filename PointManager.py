@@ -3,7 +3,6 @@ import numpy as np
 import time
 # import ReachingCtrlExample
 import YourControlCode
-
 class PointHandle:
     def __init__(self, m: mujoco.MjModel, d: mujoco.MjData):
         self.m = m
